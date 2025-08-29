@@ -1,5 +1,10 @@
 package labs.lab_2_part_1;
 
+/**
+ * @author Adam Johnston 2332003
+ * 
+ * Exception designed for the Month2 class, thrown when an invalid month number is given as input.
+ */
 public class InvalidMonthNumberException extends Exception {
     private int monthNumber;
 

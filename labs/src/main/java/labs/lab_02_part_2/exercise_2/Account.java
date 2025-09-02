@@ -20,8 +20,7 @@ public abstract class Account {
      * Deposit a sum from the account.
      * 
      * @param amount Amount of money to be deposited.
-     * @throws IllegalArgumentException If the amount specified is less than or
-     *                                  equal to 0.
+     * @throws IllegalArgumentException If the amount specified is less than 0.
      */
     public void deposit(double amount) throws IllegalArgumentException {
         if (amount < 0) {
@@ -35,8 +34,7 @@ public abstract class Account {
      * Withdraw a sum.
      * 
      * @param amount Amount of money to be withdrawn.
-     * @throws IllegalArgumentException If the amount specified is less than or
-     *                                  equal to 0.
+     * @throws IllegalArgumentException If the amount specified is less than 0.
      */
     public void withdraw(double amount) throws IllegalArgumentException {
         if (amount < 0) {
